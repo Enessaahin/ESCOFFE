@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCOFFE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/escoffe.css">
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCOFFE</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <style>
+       
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .background {
+            background-image: url('img/escafe.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat; 
+            background-position: center; 
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <div class="background" >
+        <div id="intro"  >
+            <nav id="tm-nav"  style ="background-color: black;" class="fixed w-full">
+                <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                    <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                    <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                        <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">ESCOFFE</a></li>
+                        <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menu</a></li>
+                        <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">Hakkımızda</a></li>
+                        <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">İletişim</a></li>
+                    </ul>
+                </div>            
+            </nav>
+            <div class="container mx-auto px-2 tm-intro-width">
+                <div class="sm:pb-60 sm:pt-48 py-20">
+                    <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                        <h1 class="text-white text-5xl tm-logo-font mb-5">ESCOFFE</h1>
+                        <p class="tm-text-gold tm-text-2xl">"Günlük enerji ihtiyacın"</p>
+                    </div>    
+                    <div class="bg-black bg-opacity-70 p-10 mb-5">
+                        <p class="text-white leading-8 text-sm font-light">
+                        2018 yılından beri sadece size en kaliteli kahveleri sunan tek adres. </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                                <i class="fas fa-coffee mr-3"></i>
+                                <span>Hadi tadına bakalım.</span>                        
+                            </a>
+                        </div>                    
+                    </div>                
+                </div>
+            </div>        
+        </div>
+        <!-- Cafe Menu -->
+        <div id="menu"  >
+            <div class="container mx-auto tm-container py-24 sm:py-48">
+                <div class="text-center mb-16">
+                    <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Menu</h2>
+                </div>            
+                <div class="flex flex-col lg:flex-row justify-around items-center">
+                    <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                        <div class="flex items-start mb-6 tm-menu-item">
+                            <img src="img/menu-item-1.jpg" alt="Image" class="rounded-md">
+                            <div class="ml-3 sm:ml-6">
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Sıcak Cappuccino</h3>
+                                <div class="text-white text-md sm:text-lg font-light mb-1">Small ₺110.00</div>
+                                <div class="text-white text-md sm:text-lg font-light">Large ₺130.00</div>
+                            </div>                    
+                        </div>
+                        <div class="flex items-start mb-6 tm-menu-item">
+                            <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
+                            <div class="ml-3 sm:ml-6">
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Sıcak Americano</h3>
+                                <div class="text-white text-md sm:text-lg font-light mb-1">Small ₺90.00</div>
+                                <div class="text-white text-md sm:text-lg font-light">Large ₺110.00</div>
+                            </div>                    
+                        </div>
+                        <div class="flex items-start mb-6 tm-menu-item">
+                            <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
+                            <div class="ml-3 sm:ml-6">
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Sıcak Latte</h3>
+                                <div class="text-white text-md sm:text-lg font-light mb-1">Small ₺100.00</div>
+                                <div class="text-white text-md sm:text-lg font-light">Large ₺120.00</div>
+                            </div>                    
+                        </div>
+                        <div class="flex items-start mb-6 tm-menu-item">
+                            <img src="img/menu-item-4.jpg" alt="Image" class="rounded-md">
+                            <div class="ml-3 sm:ml-6">
+                                <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Sıcak Espresso</h3>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Sıcak Çikolata</h3>
+                                <div class="text-white text-md sm:text-lg font-light">Small 70.00 <br> Large 85.00</div>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                        <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                            <div class="text-right mr-6">
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Soğuk Cappuccino</h3>
+                                <div class="text-white text-md sm:text-lg font-light mb-1">Small ₺110.00</div>
+                                <div class="text-white text-md sm:text-lg font-light">Large ₺130.00</div>
+                            </div>
+                            <img src="img/menu-item-5.jpg" alt="Image" class="rounded-md">                   
+                        </div>
+                        <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                            <div class="text-right mr-6">
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                                <div class="text-white text-md sm:text-lg font-light mb-1">Small ₺90.00</div>
+                                <div class="text-white text-md sm:text-lg font-light">Large ₺110.00</div>
+                            </div>
+                            <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
+                        </div>
+                        <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                            <div class="text-right mr-6">
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Soğuk Latte</h3>
+                                <div class="text-white text-md sm:text-lg font-light mb-1">Small ₺100.00</div>
+                                <div class="text-white text-md sm:text-lg font-light">Large ₺120.00</div>
+                            </div>   
+                            <img src="img/menu-item-7.jpg" alt="Image" class="rounded-md">                 
+                        </div>
+                        <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                            <div class="text-right mr-6">
+                                <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Soğuk Espresso</h3>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Soğuk Mocha</h3>
+                                <div class="text-white text-md sm:text-lg font-light">Small ₺70.00<br> Large ₺85.00</div>
+                            </div> 
+                            <img src="img/menu-item-8.jpg" alt="Image" class="rounded-md">                   
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div id="about"  >
+            <div class="container mx-auto tm-container py-24 sm:py-48">
+                <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                    <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                        <h2 class="mb-6 tm-text-green text-4xl font-medium">HAKKIMIZDA</h2>
+                        <p class="mb-6 text-base leading-8">
+                            2018 yılında Çınrda ufak bir dükkanda sizlere hizmet vermeye başladık.İlerleyen zamanda bize olan memnuniyetiniz ve vizyonumuz sayesinde Denizli'de en çok tutulan kafe olmayı başardık ve şuan 4 şubeyle size hizmet vermekteyiz.
+                    </p>
+                        <p class="text-base leading-8">
+                            Asıl amacımız sizlere en iyi hizmeti sunabilmektir lütfen bizimle ilgili olumlu veya olumsuz görüşlerinizi bize iletin.. </p>
+                    </div>
+                    <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                        <i class="far fa-comments mr-4"></i>
+                        Görüşlerini ilet...
+                    </a>
+                </div>           
+            </div>        
+        </div>
+        <div id="contact">
+            <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+                <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                    <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                        <h2 class="text-3xl mb-6 tm-text-green">İLETİŞİM</h2>
+                        <p class="mb-6 text-lg leading-8">
+                            Ana şubemiz:Yunusemre mah. 6449 sok. No:776 Pamukkale/Denizli.<br>Kampüs Şube:Kınıklı mah. 435 sok. No:754 Pamukkale/Denizli
+                        </p>
+                        <p class="mb-10 text-lg">
+                            <span class="block mb-2">Tel: <a href="tel:0100200340" class="hover:text-yellow-600 transition">0552 229 5980</a></span>
+                            <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">ESCOFFE@gmail.com</a></span>                        
+                        </p>
+                        <div class="text-center">
+                            <a href="https://www.google.com/maps/place/Pamukkale+%C3%9Cniversitesi+%C4%B0ktisadi+ve+%C4%B0dari+Bilimler+Fak%C3%BCltesi/@37.7379868,29.1025324,17z/data=!3m1!4b1!4m6!3m5!1s0x14c73ec4ec7fd17b:0x3207756ad9feb3da!8m2!3d37.7379827!4d29.1074033!16s%2Fg%2F11h06mdqbj?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
+                                <i class="fas fa-map-marked-alt mr-8"></i>
+                                Haritalarda Aç
+                            </a>
+                        </div>                    
+                    </div>
+                   
+                
+            </div>        
+        </div>    
+    </div>
+</body>
+</html>
